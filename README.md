@@ -1,4 +1,4 @@
-# 🏥 Healthcare Data Analysis — End-to-End EDA Project
+# 🏥 Healthcare Data Analysis —
 
 _End-to-end patient analytics across 55,500 hospital records — cleaned in Python, explored across 10 business questions, and every visual finding statistically validated with T-tests, ANOVA, Chi-square, and linear regression before being reported as a conclusion._
 
