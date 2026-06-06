@@ -1,0 +1,5 @@
+Dataset: Healthcare Dataset
+Source : https://www.kaggle.com/datasets/prasad22/healthcare-dataset
+File   : healthcare_dataset.csv
+Rows   : 55,500
+Place the downloaded CSV in this folder before running the notebook.
