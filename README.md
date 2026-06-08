@@ -104,7 +104,7 @@ All cleaning and feature engineering done in Python (Pandas) before analysis:
 - Parsed date columns to datetime — `Date of Admission` and `Discharge Date`
 - Verified zero null values across all 15 columns
 - Found **534 duplicate rows** (0.96%) — flagged as synthetic data artefacts; retained since removing them shifts avg billing by $5 and abnormal rate by 0.1 pp (no material impact on any finding)
-- Flagged **108 negative billing records** (0.19% of dataset) — excluded from all billing aggregations; retained for count-based analyses
+- Flagged **108 negative billing records** (0.19% of dataset) — excluded from all billing aggregations; retained for count-based analyses.
 - Created `LOS = Discharge Date − Date of Admission` as the primary length-of-stay metric
 - Binned `Age` into 5 groups: `13-29`, `30-44`, `45-59`, `60-74`, `75-89`
 - Derived `Season` from admission month — Winter, Spring, Summer, Fall
